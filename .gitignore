@@ -18,3 +18,5 @@ staticfiles/
 
 .idea/
 
+./authentication/migrations/
+./posts/migrations/

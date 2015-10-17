@@ -32,6 +32,8 @@
         controller: 'ProfileSettingsController',
         controllerAs: 'vm',
         templateUrl: '/static/templates/profiles/settings.html'
-    }).otherwise('/');
+    }).otherwise({
+        redirectTo: '/'
+    });
   }
 })();
