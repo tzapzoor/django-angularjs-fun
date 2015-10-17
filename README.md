@@ -8,9 +8,9 @@
 
 After cloning the repo:
 * `$ virtualenv baseAppEnv`
-* '$ source baseAppEnv/bin/activate'
+* `$ source baseAppEnv/bin/activate`
 * `$ cd eestec-olympics/`
-* '$ git checkout baseApp1-thinkster'
+* ``$ git checkout baseApp1-thinkster`
 * `$ pip install -r requirements.txt`
 * `$ npm install -g bower`
 * `$ npm install`
