@@ -28,33 +28,35 @@
     * @memberOf app.layout.controllers.IndexController
     */
     function activate() {
-      Posts.all().then(postsSuccessFn, postsErrorFn);
+      //Posts.all().then(postsSuccessFn, postsErrorFn);
 
-      $scope.$on('post.created', function (event, post) {
-        vm.posts.unshift(post);
-      });
 
-      $scope.$on('post.created.error', function () {
-        vm.posts.shift();
-      });
+      //
+      // $scope.$on('post.created', function (event, post) {
+      //   vm.posts.unshift(post);
+      // });
+      //
+      // $scope.$on('post.created.error', function () {
+      //   vm.posts.shift();
+      // });
 
 
       /**
       * @name postsSuccessFn
       * @desc Update posts array on view
       */
-      function postsSuccessFn(data, status, headers, config) {
-        vm.posts = data.data;
-      }
+      // function postsSuccessFn(data, status, headers, config) {
+      //   vm.posts = data.data;
+      // }
 
 
       /**
       * @name postsErrorFn
       * @desc Show snackbar with error
       */
-      function postsErrorFn(data, status, headers, config) {
-        Snackbar.error(data.error);
-      }
+      // function postsErrorFn(data, status, headers, config) {
+      //   Snackbar.error(data.error);
+      // }
     }
   }
 })();
