@@ -7,7 +7,7 @@
       'app.authentication',
       'app.config',
       'app.layout',
-      'app.posts',
+      //'app.posts',
       'app.utils',
       'app.profiles'
     ]);
